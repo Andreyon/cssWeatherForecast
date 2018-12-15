@@ -38,7 +38,7 @@ ul {
     font-size: 0;
 }
 
-ul:hover li{
+ul:hover li {
     opacity: 0.5;
 }
 
