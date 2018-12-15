@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border: 10px solid #2B81AC;
+    background-color: #3399CC;
+    color: #ffffff;
+}
+
+body *,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    margin: 30px auto;
+    width: 70%;
+    font-size: 1em;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 4px;
+    width: 70%;
+    list-style: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 0;
+}
+
+ul:hover li{
+    opacity: 0.5;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+li {
+    display: inline-block;
+    height: 100px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 2px 0;
+    font-size: 18px;
+}
+
+li.lisbon {
+    width: 50%;
+    background-color: #3399CC;
+    border-right: 2px solid #ffffff;
+}
+
+li.paris {
+    width: 25%;
+    background-color: #33CCCC;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+li.belgrade {
+    width: 25%;
+    background-color: #996699;
+    border-left: 2px solid #ffffff;
+}
+
+li.moscow {
+    width: 25%;
+    background-color: #C24747;
+    border-right: 2px solid #ffffff;
+}
+
+Li.telAviv {
+    width: 25%;
+    background-color: #E2674A;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+Li.cair {
+    width: 25%;
+    background-color: #FFCC66;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+li.newYork {
+    width: 25%;
+    background-color: #99CC99;
+    border-left: 2px solid #ffffff;
+}
+
+li.newDelhi {
+    width: 25%;
+    background-color: #669999;
+    border-right: 2px solid #ffffff;
+}
+
+li.sunFrancisco {
+    width: 50%;
+    background-color: #CC6699;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+li.tokyo {
+    width: 25%;
+    background-color: #339966;
+    border-left: 2px solid #ffffff;
+}
+
+li.sydney {
+    width: 100%;
+    background-color: #666699;
+}
+
+li span {
+    opacity: 0.7;
+}
+
+footer {
+    margin: 30px auto;
+    width: 70%;
+    font-size: 0.9em;
+}
